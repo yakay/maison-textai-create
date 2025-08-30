@@ -13,7 +13,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed max-w-lg">
-              Step into the future. Maison is designed using AI transformation assistance, providing you with seamless interior design suggestions, all based on one single click. This intuitive platform allows you to manage your upcoming room ideas in a fresh way, by optimizing your design preferences and making your digital project look good.
+              Step into the future. Masion is designed using AI transformation assistance, providing you with seamless interior design suggestions, all based on one single click. This intuitive platform allows you to manage your upcoming room ideas in a fresh way, by optimizing your design preferences and making your digital project look good.
             </p>
 
             <div className="flex gap-4 mb-12">
