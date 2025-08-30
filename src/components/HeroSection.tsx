@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-
+import myPhoto from "../assets/main_page.png"; 
 const HeroSection = () => {
   return (
     <section className="min-h-screen pt-20 pb-12 px-4 sm:px-6 lg:px-8">
@@ -23,29 +23,12 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Content - Interface Preview */}
-          <div className="relative">
-            <div className="glass-effect p-6 border border-white/20 rounded-2xl">
-              <div className="bg-card rounded-lg p-4 mb-4">
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                </div>
-                <div className="grid grid-cols-3 gap-2">
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                  <div className="bg-muted/50 h-20 rounded"></div>
-                </div>
+              <div className="bg-card rounded-lg p-6 mb-6">
+               <div>
+      <img src={myPhoto} alt="My" style={{ width: "600px" }} />
+    </div>
               </div>
-              <div className="text-center">
-                <p className="text-sm text-foreground/60">AI-Powered Interior Design Interface</p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
